@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>《canvas基础》 | zhangyun&#39;s blog</title>
+    <meta name="generator" content="VuePress 1.4.1">
+    <link rel="manifest" href="/photo.jpg">
+    <link rel="apple-touch-icon" href="/photo.jpg">
+    <meta name="description" content="张赟的个人博客">
+    <link rel="preload" href="/assets/css/0.styles.3ef2f377.css" as="style"><link rel="preload" href="/assets/js/app.37e78cb7.js" as="script"><link rel="preload" href="/assets/js/2.0887c104.js" as="script"><link rel="preload" href="/assets/js/12.0bf329d1.js" as="script"><link rel="prefetch" href="/assets/js/10.3cc1de35.js"><link rel="prefetch" href="/assets/js/11.25433335.js"><link rel="prefetch" href="/assets/js/13.45cbbf1b.js"><link rel="prefetch" href="/assets/js/14.329ef4dc.js"><link rel="prefetch" href="/assets/js/15.142231f2.js"><link rel="prefetch" href="/assets/js/16.b18b9ecc.js"><link rel="prefetch" href="/assets/js/17.0d58aa02.js"><link rel="prefetch" href="/assets/js/18.1e77237e.js"><link rel="prefetch" href="/assets/js/19.90af3596.js"><link rel="prefetch" href="/assets/js/20.820bcbfe.js"><link rel="prefetch" href="/assets/js/21.9d85971e.js"><link rel="prefetch" href="/assets/js/22.37700312.js"><link rel="prefetch" href="/assets/js/23.3dd67b96.js"><link rel="prefetch" href="/assets/js/24.cc5bb461.js"><link rel="prefetch" href="/assets/js/25.c1ce8373.js"><link rel="prefetch" href="/assets/js/26.86931b30.js"><link rel="prefetch" href="/assets/js/27.ddf308b8.js"><link rel="prefetch" href="/assets/js/3.f0bae693.js"><link rel="prefetch" href="/assets/js/4.3b9d3d22.js"><link rel="prefetch" href="/assets/js/5.0d322686.js"><link rel="prefetch" href="/assets/js/6.3deaa008.js"><link rel="prefetch" href="/assets/js/7.dc4d4a75.js"><link rel="prefetch" href="/assets/js/8.56191d34.js"><link rel="prefetch" href="/assets/js/9.a302443b.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.3ef2f377.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">zhangyun's blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端总结" class="dropdown-title"><span class="title">前端总结</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontEnd/WEB/" class="nav-link">
+  WEB基础
+</a></li><li class="dropdown-item"><!----> <a href="/frontEnd/JavaScript/" class="nav-link router-link-active">
+  JavaScript笔记
+</a></li><li class="dropdown-item"><!----> <a href="/frontEnd/Vue/" class="nav-link">
+  Vue笔记
+</a></li><li class="dropdown-item"><!----> <a href="/frontEnd/React/" class="nav-link">
+  React笔记
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="小程序总结" class="dropdown-title"><span class="title">小程序总结</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/miniApp/wechatApp/" class="nav-link">
+  微信小程序
+</a></li><li class="dropdown-item"><!----> <a href="/miniApp/alipayApp/" class="nav-link">
+  支付宝小程序
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="服务端总结" class="dropdown-title"><span class="title">服务端总结</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/serveEnd/NodeJs/" class="nav-link">
+  NodeJs
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="混合app" class="dropdown-title"><span class="title">混合app</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/app/cordova/" class="nav-link">
+  cordova
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="感动常在" class="dropdown-title"><span class="title">感动常在</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/mySpace/essay/" class="nav-link">
+  读书笔记
+</a></li><li class="dropdown-item"><!----> <a href="/mySpace/photo/" class="nav-link">
+  摄影随笔
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端总结" class="dropdown-title"><span class="title">前端总结</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontEnd/WEB/" class="nav-link">
+  WEB基础
+</a></li><li class="dropdown-item"><!----> <a href="/frontEnd/JavaScript/" class="nav-link router-link-active">
+  JavaScript笔记
+</a></li><li class="dropdown-item"><!----> <a href="/frontEnd/Vue/" class="nav-link">
+  Vue笔记
+</a></li><li class="dropdown-item"><!----> <a href="/frontEnd/React/" class="nav-link">
+  React笔记
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="小程序总结" class="dropdown-title"><span class="title">小程序总结</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/miniApp/wechatApp/" class="nav-link">
+  微信小程序
+</a></li><li class="dropdown-item"><!----> <a href="/miniApp/alipayApp/" class="nav-link">
+  支付宝小程序
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="服务端总结" class="dropdown-title"><span class="title">服务端总结</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/serveEnd/NodeJs/" class="nav-link">
+  NodeJs
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="混合app" class="dropdown-title"><span class="title">混合app</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/app/cordova/" class="nav-link">
+  cordova
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="感动常在" class="dropdown-title"><span class="title">感动常在</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/mySpace/essay/" class="nav-link">
+  读书笔记
+</a></li><li class="dropdown-item"><!----> <a href="/mySpace/photo/" class="nav-link">
+  摄影随笔
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>JavaScript笔记</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/frontEnd/JavaScript/" class="sidebar-link">写在前面</a></li><li><a href="/frontEnd/JavaScript/note.html" class="sidebar-link">《js笔记》</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><p>本文章通过canvas实现一个刮刮奖效果来总结canvas的基础用法</p> <h2 id="canvas实现刮奖"><a href="#canvas实现刮奖" class="header-anchor">#</a> canvas实现刮奖</h2> <h3 id="准备"><a href="#准备" class="header-anchor">#</a> 准备</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span>canvas id<span class="token operator">=</span><span class="token string">&quot;canvas&quot;</span> width<span class="token operator">=</span><span class="token string">&quot;250&quot;</span> height<span class="token operator">=</span><span class="token string">&quot;50&quot;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>canvas<span class="token operator">&gt;</span>
+
+    <span class="token comment">// 获取 canvas 对象</span>
+<span class="token keyword">let</span> canvas <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'canvas'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>  
+    <span class="token comment">// 获取 cavans 绘图环境对象，参数为 2d</span>
+	context <span class="token operator">=</span> canvas<span class="token punctuation">.</span><span class="token function">getContext</span><span class="token punctuation">(</span><span class="token string">'2d'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token comment">// context 是绘图环境对象，如果你在浏览器中输出 context，你会发现里面包含了许多属性，如：fillStyle strokeStyle等，以及一些函数方法，arc() rect() save() restore() clip()等等。</span>
+</code></pre></div><h3 id="绘制基本图形"><a href="#绘制基本图形" class="header-anchor">#</a> 绘制基本图形</h3> <p>矩形
+context.rect($x, $y, $width, $height)</p> <blockquote><p>不过值得注意的是，调用这个方法，~只是绘制的矩形的路径~，该路径是不可见的，除非你在后面调用 context.fill() 和 context.stroke() 方法，进行填充或者描边。
+填充描边的表现形式取决于 context 绘图环境的 fillStyle和strokeStyle属性的值。</p></blockquote> <p>作者：木子七
+链接：https://juejin.im/post/59881ced51882525bd3562ab
+来源：掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p> <p>圆形
+context.arc($x, $y, $radius, $start_radian, $end_radian [, $clockwise])</p> <p>当前路径
+context.beginPath() 我们在创建一个集合图形之前，都应当先调用该方法，该方法会清除上一次绘制时留下的路径，并将本次绘制的路径作为 ~当前路径~。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">let</span> canvas <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'canvas'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    context <span class="token operator">=</span> canvas<span class="token punctuation">.</span><span class="token function">getContext</span><span class="token punctuation">(</span><span class="token string">'2d'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * 绘制一个矩形
+ * @param {Num} x      矩形的左上角 x 轴的位置
+ * @param {Num} y      矩形的左上角 y 轴的位置
+ * @param {Num} width  矩形的宽度
+ * @param {Num} height 矩形的高度
+ */</span>
+<span class="token keyword">function</span> <span class="token function">drawRect</span><span class="token punctuation">(</span><span class="token parameter">x<span class="token punctuation">,</span> y<span class="token punctuation">,</span> width<span class="token punctuation">,</span> height</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	context<span class="token punctuation">.</span><span class="token function">beginPath</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>               <span class="token comment">// 清空上一次的路径</span>
+	context<span class="token punctuation">.</span><span class="token function">rect</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">,</span> width<span class="token punctuation">,</span> height<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 创建一个矩形路径</span>
+	context<span class="token punctuation">.</span><span class="token function">fill</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                    <span class="token comment">// 将该矩形路径填充为绘图环境指定的填充颜色 context.fillStyle</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/**
+ * 绘制一个圆形
+ * @param {Num} centerX  圆心 x 轴坐标
+ * @param {Num} centerY  圆心 y 轴坐标
+ * @param {Num} radius   圆的半径
+ */</span>
+<span class="token keyword">function</span> <span class="token function">drawCircle</span><span class="token punctuation">(</span><span class="token parameter">centerX<span class="token punctuation">,</span> centerY<span class="token punctuation">,</span> radius</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    context<span class="token punctuation">.</span><span class="token function">beginPath</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    context<span class="token punctuation">.</span><span class="token function">arc</span><span class="token punctuation">(</span>centerX<span class="token punctuation">,</span> centerY<span class="token punctuation">,</span> radius<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> Math<span class="token punctuation">.</span><span class="token constant">PI</span> <span class="token operator">*</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    context<span class="token punctuation">.</span><span class="token function">fill</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">drawRect</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">drawCircle</span><span class="token punctuation">(</span><span class="token number">160</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+</code></pre></div><h3 id="清除画布内容"><a href="#清除画布内容" class="header-anchor">#</a> 清除画布内容</h3> <p>context.clearRect($x, $y, $width, $height)</p> <h3 id="canvas-的状态保存与恢复"><a href="#canvas-的状态保存与恢复" class="header-anchor">#</a> canvas 的状态保存与恢复</h3> <p>context.save()：能将执行该方法之前的所有 ~canvas 状态~ 保存下来； context.restore() ：将 save 方法保存的 ~canvas 状态~ 释放出来；</p> <h3 id="剪辑区域-clip"><a href="#剪辑区域-clip" class="header-anchor">#</a> 剪辑区域 clip()</h3> <p>context 绘图环境对象提供了一个 context.clip() 剪辑区域方法，这也是本章实现橡皮擦功能的核心方法。
+该方法会将 ~当前路径~ 作为一个剪辑区域，使该区域以外的图像不可见。
+并且在剪辑区域中，所有填充，清除等操作不会影响剪辑区域以外的内容。
+所以我们可以创建一个剪辑区域，在这个剪辑区域中执行清除操作，就可以擦除 canvas 画布中指定的内容。</p> <p>作者：木子七
+链接：https://juejin.im/post/59881ced51882525bd3562ab
+来源：掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">drawRect</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+context<span class="token punctuation">.</span><span class="token function">save</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 创建一个圆形路径，并作为剪辑区域，擦除该区域中的所有内容</span>
+<span class="token function">drawCircle</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+context<span class="token punctuation">.</span><span class="token function">clip</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+context<span class="token punctuation">.</span><span class="token function">clearRect</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> canvas<span class="token punctuation">.</span>width<span class="token punctuation">,</span> canvas<span class="token punctuation">.</span>height<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+context<span class="token punctuation">.</span><span class="token function">restore</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">drawRect</span><span class="token punctuation">(</span><span class="token number">110</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+</code></pre></div><h3 id="实现橡皮擦"><a href="#实现橡皮擦" class="header-anchor">#</a> 实现橡皮擦</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span><span class="token operator">!</span><span class="token constant">DOCTYPE</span> html<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span>html<span class="token operator">&gt;</span>
+
+<span class="token operator">&lt;</span>head<span class="token operator">&gt;</span>
+	<span class="token operator">&lt;</span>title<span class="token operator">&gt;</span>橡皮擦<span class="token operator">&lt;</span><span class="token operator">/</span>title<span class="token operator">&gt;</span>
+	<span class="token operator">&lt;</span>meta name<span class="token operator">=</span><span class="token string">&quot;viewport&quot;</span> content<span class="token operator">=</span><span class="token string">&quot;width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no&quot;</span><span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>head<span class="token operator">&gt;</span>
+
+<span class="token operator">&lt;</span>body<span class="token operator">&gt;</span>
+
+	<span class="token operator">&lt;</span>canvas id<span class="token operator">=</span><span class="token string">&quot;canvas&quot;</span> width<span class="token operator">=</span><span class="token string">&quot;300&quot;</span> height<span class="token operator">=</span><span class="token string">&quot;300&quot;</span> style<span class="token operator">=</span><span class="token string">&quot;background: #eee&quot;</span><span class="token operator">&gt;</span>
+		Canvas not supported
+	<span class="token operator">&lt;</span><span class="token operator">/</span>canvas<span class="token operator">&gt;</span>
+
+	<span class="token operator">&lt;</span>script<span class="token operator">&gt;</span>
+		<span class="token keyword">var</span> canvas <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'canvas'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+			context <span class="token operator">=</span> canvas<span class="token punctuation">.</span><span class="token function">getContext</span><span class="token punctuation">(</span><span class="token string">'2d'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+
+			<span class="token constant">ERASER_SIZE</span> <span class="token operator">=</span> <span class="token number">15</span><span class="token punctuation">,</span>  <span class="token comment">// 橡皮擦的大小</span>
+
+			dragging <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>  <span class="token comment">// 是否处在拖动状态</span>
+
+		<span class="token comment">/**
+		 * 转换坐标值
+		 * 将鼠标点击或移动时获取的坐标值，减去 canvas 相对窗口的坐标值，就是在 canvas 画布中的坐标值
+		 * @param {Obj} e 手指当前相对窗口的坐标位置
+		 */</span>
+		<span class="token keyword">function</span> <span class="token function">windowToCanvas</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">let</span> x <span class="token operator">=</span> e<span class="token punctuation">.</span>targetTouches<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>clientX<span class="token punctuation">,</span>
+				y <span class="token operator">=</span> e<span class="token punctuation">.</span>targetTouches<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>clientY<span class="token punctuation">,</span>
+				bbox <span class="token operator">=</span> canvas<span class="token punctuation">.</span><span class="token function">getBoundingClientRect</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+			<span class="token keyword">return</span> <span class="token punctuation">{</span>
+				x<span class="token operator">:</span> x <span class="token operator">-</span> bbox<span class="token punctuation">.</span>left<span class="token punctuation">,</span>
+				y<span class="token operator">:</span> y <span class="token operator">-</span> bbox<span class="token punctuation">.</span>top
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+
+		<span class="token comment">/**
+		 * 绘制剪辑区域，并清除该区域中的内容
+		 * @param {Obj} loc 手指当前相对 canvas 画布中的坐标位置
+		 */</span>
+		<span class="token keyword">function</span> <span class="token function">drawEraser</span><span class="token punctuation">(</span><span class="token parameter">loc</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			context<span class="token punctuation">.</span><span class="token function">save</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+			context<span class="token punctuation">.</span><span class="token function">beginPath</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+			context<span class="token punctuation">.</span><span class="token function">arc</span><span class="token punctuation">(</span>loc<span class="token punctuation">.</span>x<span class="token punctuation">,</span> loc<span class="token punctuation">.</span>y<span class="token punctuation">,</span> <span class="token constant">ERASER_SIZE</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> Math<span class="token punctuation">.</span><span class="token constant">PI</span> <span class="token operator">*</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+			context<span class="token punctuation">.</span><span class="token function">clip</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+			context<span class="token punctuation">.</span><span class="token function">clearRect</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> canvas<span class="token punctuation">.</span>width<span class="token punctuation">,</span> canvas<span class="token punctuation">.</span>height<span class="token punctuation">)</span><span class="token punctuation">;</span>
+			context<span class="token punctuation">.</span><span class="token function">restore</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+
+		<span class="token comment">/**
+		 * 页面加载时，绘制一个铺满 canvas 画布的矩形
+		 * 该矩形用于被擦除
+		 */</span>
+		window<span class="token punctuation">.</span><span class="token function-variable function">onload</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			context<span class="token punctuation">.</span><span class="token function">save</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+			context<span class="token punctuation">.</span>fillStyle <span class="token operator">=</span> <span class="token string">'#666'</span><span class="token punctuation">;</span>
+			context<span class="token punctuation">.</span><span class="token function">beginPath</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+			context<span class="token punctuation">.</span><span class="token function">fillRect</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> canvas<span class="token punctuation">.</span>width<span class="token punctuation">,</span> canvas<span class="token punctuation">.</span>height<span class="token punctuation">)</span><span class="token punctuation">;</span>
+			context<span class="token punctuation">.</span><span class="token function">restore</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+
+		<span class="token comment">/**
+		 * ① 手指按下时，开启 dragging 状态，并绘制剪辑区域
+		 */</span>
+		canvas<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'touchstart'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">var</span> loc <span class="token operator">=</span> <span class="token function">windowToCanvas</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+			dragging <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+			<span class="token function">drawEraser</span><span class="token punctuation">(</span>loc<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+		<span class="token comment">/**
+		 * ② 手指移动时，不断进行剪辑区域的绘制，以及路径更新，实现擦除的效果
+		 */</span>
+		canvas<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'touchmove'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">var</span> loc<span class="token punctuation">;</span>
+
+			<span class="token keyword">if</span> <span class="token punctuation">(</span>dragging<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				loc <span class="token operator">=</span> <span class="token function">windowToCanvas</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+				<span class="token function">drawEraser</span><span class="token punctuation">(</span>loc<span class="token punctuation">)</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+		<span class="token comment">/**
+		 * ③ 手指离开，结束擦除过程
+		 */</span>
+		canvas<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'touchend'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			dragging <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span><span class="token punctuation">)</span>
+	<span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>body<span class="token operator">&gt;</span>
+
+<span class="token operator">&lt;</span><span class="token operator">/</span>html<span class="token operator">&gt;</span>
+
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.37e78cb7.js" defer></script><script src="/assets/js/2.0887c104.js" defer></script><script src="/assets/js/12.0bf329d1.js" defer></script>
+  </body>
+</html>
